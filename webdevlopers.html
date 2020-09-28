@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Developers</title>
+<meta name="description" content="International Conference on Intelligent Computing in control and Communication">
+<meta name="keywords" content="aitam, iccc, 2020, iccc 2020, tekkali, international, conference, srikakulam, ramarao, publications, Web Developer's">
+<meta name="author" content="Student Activity Center">
+<meta name="copyright" content="Student Activity Center">
+<meta name="email" content="aitamsac@gmail.com">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Conference project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/news.css">
+<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/web.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING IN CONTROL AND COMMUNICATION (ICCC 2020)",
+  "startDate" : "2020-03-20",
+  "endDate" : "2020-03-21",
+  "location" : {
+    "@type" : "Place",
+    "name" : "ADITYA INSTITUTE OF TECHNOLOGY AND MANAGEMENT (AITAM)-(An Autonomous Institution)",
+    "address" : {
+      "@type" : "PostalAddress",
+      "addressLocality" : "Tekkali",
+      "addressRegion" : "Srikakulam",
+      "addressCountry" : "India",
+      "postalCode" : "532201"
+    }
+  },
+  "image" : "http://www.iccc2020.in/images/logo1.png",
+  "description" : "Welcome to the Official website of International conference on intelligent computing in control and communication (ICCC 2020) is scheduled on March 20-21, 2020 at ADITYA INSTITUTE OF TECHNOLOGY AND MANAGEMENT, TEKKALI, SRIKAKULAM. The ICCC 2020 aims to bring together professors, researchers and scholars around the globe on a great platform to deliver the latest innovative research results and the most recent developments and trends in Electrical, Electronics and Communication, Computer Technologies. The intent behind the conference is to provide an opportunity to delegates to exchange new ideas related to their experience about the applications of the emerging technologies in the field of communication, control and computing. The deliberations will not only encompass all avenues of intelligent control, Communications Engineering and advances in Computer engineering but also through spotlight on positive and inadvertent impact of modern technologies on society.",
+  "url" : "http://www.iccc2020.in/webdevlopers.html",
+  "performer" : {
+    "@type" : "Person",
+    "name" : "AITAM"
+  }
+}
+</script>
+<style type="text/css">
+.parallax_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 524px;
+}
+.home
+{
+	width: 100%;
+	height: 1212px;
+} 
+
+ .profile-card{            
+            position:relative;
+            overflow: hidden;
+            margin-bottom:10px;
+        }
+        .profile-card .profile-img img{
+            width:100%;
+            height:auto;
+        }
+        .profile-card .profile-content::before{
+            content: "";
+            position:absolute;
+            top:0;
+            left:0;
+            width:50%;
+            height:40%;
+            border:3px solid #222;
+            border-right:3px solid transparent;
+            border-bottom:3px solid transparent;
+            transform: scale(1,1);
+            transition: all 0.50s linear;
+        }
+        .profile-card .profile-content::after{
+            content: "";
+            position:absolute;
+            bottom:0;
+            right:0;
+            width:50%;
+            height:40%;
+            border:3px solid #222;
+            border-left:3px solid transparent;
+            border-top:3px solid transparent;
+            transition: all 0.50s linear;
+        }
+        .profile-card:hover .profile-content:before{
+            top:20px;
+            left:20px;
+        }
+        .profile-card:hover .profile-content:after{
+            bottom:20px;
+            right:20px;
+        }
+        .profile-card .profile-content::after{
+            content: "";
+            position:absolute;
+            bottom:0;
+            right:0;
+            width:50%;
+            height:40%;
+            border:3px solid #222;
+            border-left:3px solid transparent;
+            border-top:3px solid transparent;
+            transform: scale(1,1);
+            transition: all 0.50s linear;
+        }
+        .profile-card .profile-content{
+            position: absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            padding:50% 4%;
+            text-align: center;
+            background-color: rgba(255,255,255,0.0);
+        }
+        .profile-card .profile-content .title{
+            font-size:24px;
+            color:linear-gradient(to right, #4867c0, #329fec);
+            opacity:0;
+            letter-spacing:2px;
+            text-transform:uppercase;
+            transform: translateY(-100px);
+            transition:all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+        }
+		.profile-card:hover .profile-content{
+		background-color: rgba(255,255,255,0.4);
+		}
+        .profile-card:hover .title{
+            opacity:1;
+            transform: translateY(0);
+        }
+        .profile-card:hover .title::after{
+            content:"";
+            display:block;
+            width:50%;
+            margin:10px auto;
+            border-bottom:2px solid #222;
+        }
+        .profile-card .profile-content .title > span{
+            display:block;
+            margin:5px 0;
+            font-size: 14px;
+            text-transform: capitalize;
+        }
+        .profile-card .profile-content .social-link{
+            margin:20px 0;
+            padding:0;
+            opacity:0;
+            transform: translateY(100px);
+            transition:all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+        }
+        .profile-card:hover .social-link{
+            opacity:1;
+            transform: translateY(0);
+        }
+        .profile-card .profile-content .social-link li{
+            display: inline-block;
+            list-style: none;
+            margin:0 4px;
+        }
+        .profile-card .profile-content .social-link li a{
+            color:#333;
+            width:30px;
+            height:25px;
+            line-height:24px;
+            text-align: center;
+            border-radius:5px;
+            background-color: #fff;
+        }
+
+</style>
+
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<div class="logo menu_logo">
+				<a href="#">
+					<div class="logo_container d-flex flex-row align-items-start justify-content-start">
+						<div class="logo_image"><div><img src="images/logo1.png" alt=""></div></div>
+						<div class="logo_content">
+							<div class="logo_text logo_text_not_ie">The Conference</div>
+							<div class="logo_sub">August 7<sup>th</sup>- 8<sup>th</sup>, 2020 - Tekkali,Srikakulam, Andhra Pradesh</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<ul>
+				<li class="menu_item"><a href="index.html">Home</a></li>
+				<li><div class="dropdown">
+					<a class="menu_item" class="dropbtn" href="#">About</a>
+						<div class="dropdown-content b">
+                            <div class="dropdown">  													
+								<a class="menu_item" href="aboutconf.html">About Conference</a>
+                                <a class="menu_item" href="aboutcoll.html">About College</a>
+                                
+                                </div>
+                             </div></li>
+			    <li><div class="dropdown">
+					<a class="menu_item" class="dropbtn" href="#">Committee</a>
+						<div class="dropdown-content b">
+                            <div class="dropdown">  													
+								<a class="menu_item" href="oc.html">International Organisation Committee</a>
+                                <a class="menu_item" href="ac.html">International Advisory Committee</a>
+                                <a class="menu_item" href="tc.html">International Technical committee</a>
+                                </div>
+                             </div></li>
+			    <li class="menu_item"><a href="register.html">Registration</a></li>
+				<li class="menu_item"><a href="travel.html">Travel</a></li>
+				<li class="menu_item"><a href="contact.html">Contact</a></li>
+			</ul>		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/news.jpg" data-speed="0.8"></div>
+
+			
+		<!-- Header -->
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div>
+										<a href="#">
+											<div class="logo_container d-flex flex-row align-items-start justify-content-start">
+												<div class="logo_image">
+											<div><img src="images/logo1.png" alt=""></div>
+											<div><img style="height:150px;width:150px;position:relative;top:-45px;left:1120px;" src="images/springer.png" alt=""></div>
+										</div>
+										<div class="logo_content">
+													<div id="logo_text" class="logo_text logo_text_not_ie" style="color:black;"><b>INTERNATIONAL CONFERENCE ON <br> INTELLIGENT COMPUTING IN CONTROL AND COMMUNICATION (ICCC 2020)</div>
+												<div class="logo_sub" style="color:black;font-size:20px;">Organized By <br> <b> ADITYA INSTITUTE OF TECHNOLOGY AND MANAGEMENT (AITAM)<br>(An Autonomous Institution)</b><br>(Accredited by NAAC - A+, NBA and Recognized by UGC - 2(f) & 12(B) )<br> Tekkali,Srikakulam, Andhra Pradesh,India</div>
+												      <div class="logo_sub" style="font-size:18px;">August 7<sup>th</sup>- 8<sup>th</sup>, 2020</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul>
+													<li class="active"><a href="index.html">Home</a></li>
+													<li><div class="dropdown">
+													<a class="dropbtn" href="#">About</a>
+													<div class="dropdown-content b">													
+													    <a href="aboutconf.html" onmouseover="showac()">About Conference</a>
+														<a href="aboutcoll.html" onmouseover="hideac()">About College</a>
+                                                    </div>
+                                                    </li>
+												    <li><div class="dropdown">
+													<a class="dropbtn" href="#">Committee</a>
+													<div class="dropdown-content b">													
+													        <a href="oc.html" onmouseover="showac()">Organizing Committee</a>
+														<!--	<ul id="ac" class="super-sub-menu">
+															<li><a href="poc.html">Patron Members</a></li>
+															<li><a href="coc.html">Convener Members</a></li>
+															<li><a href="choc.html">Chair Members</a></li>
+															</ul>--->
+                                                        <a href="ac.html" onmouseover="hideac()">International Advisory Committee</a>
+														<a href="tc.html" onmouseover="hideac()">International Technical committee</a>
+                                                    </div>
+                                                    </li>
+													<li><a href="speaker.html">Speakers</a></li>
+													<li><a href="register.html">Registration</a></li>									
+													<li><a href="travel.html">Travel</a></li>
+													<li><a href="contact.html">Contact</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>      
+		</header>
+
+
+<div class="home_content_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content d-flex flex-row align-items-end justify-content-start">
+							<div class="current_page" style="font-size:70px;position:relative;top:-70px;">Web Developers</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div style="margin-top: -650px; margin-bottom: 40px;" class="container">
+    <div class="row">
+        <div style="position: relative; left: 140px;" class="col-sm-6 col-md-4">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="images/web1.jpg" alt="Team Image"/>
+                </div>
+                <div class="profile-content">
+                    <h2 class="title"><b>Thota Gowri Priya</b>
+                        <span><i>Web Designer and Developer</i></span>
+                        <span>Computer Science Engineering</span>
+                    </h2>
+                    <ul class="social-link">
+                        <li><a href="https://www.facebook.com/gowripriya.thota.1" class="fa fa-facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/in/gowri-priya-thota-62202a185/" class="fa fa-linkedin"></a></li>
+                        <li><a href="#" class="fa fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="position: relative; left: 200px;" class="col-sm-6 col-md-4">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img style="height: 450px;" src="images/web2.jpg" alt="Team Image"/>
+                </div>
+                <div class="profile-content">
+                    <h2 class="title"><b>Micheeti Sravya</b>
+                        <span><i>Web Designer and Developer</i></span>
+                        <span>Information Technology</span>
+                    </h2>
+                    <ul class="social-link">
+                        <li><a href="https://www.facebook.com/sravya.rao.777" class="fa fa-facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/in/micheeti-sravya-927a3519b/" class="fa fa-linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/__princess___2128/" class="fa fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                  
+    </div>
+</div>
+
+    
+<!-----	<div class="home_content_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content d-flex flex-row align-items-end justify-content-start">
+							<div class="current_page" style="font-size:70px;position:relative;top:110px;">Web Developers</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<section style="margin-bottom:-300px;margin-top:-200px;">
+		<div class="flip-card" style="position:relative;top:30px;left:300px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/web1.jpg" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+       <p style="font-size:35px;position:relative;top:90px;color:white;"><b>Thota Gowri Priya</b></p>
+       <p style="color:white;font-size:30px;text-align:center;position:relative;top:90px;">Computer Science Engineering<br>
+      BTech 2nd year</p>
+    </div>
+  </div>
+</div>
+<div class="flip-card" style="position:relative;top:-370px;left:800px;">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images/web2.jpg"  style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <p style="font-size:35px;position:relative;top:90px;color:white;"><b>Micheeti Sravya</b></p> 
+      <p style="color:white;font-size:30px;text-align:center;position:relative;top:110px;">Information Technology<br>
+      BTech 2nd year</p>
+    </div>
+  </div>
+</div>
+</section>   ----->  
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Footer Column -->
+				<div class="col-lg-4 footer_col">
+						<div class="footer_about">
+							<div>
+								<a href="#">
+									<div class="logo_container d-flex flex-row align-items-start justify-content-start">
+										<div class="logo_image">
+											<div><img src="images/logo1.png" alt=""></div>
+											<div><img style="height:150px;width:150px;position:relative;top:-45px;left:1120px;" src="images/springer.png" alt=""></div>
+										</div>
+										<div class="logo_content">
+											<div id="logo_text" class="logo_text logo_text_not_ie">ICCC-2020</div>
+											<div class="logo_sub">August 7<sup>th</sup>- 8<sup>th</sup>, 2020  Tekkali,Srikakulam, Andhra Pradesh</div>
+										</div>
+									</div>
+								</a>	
+							</div>
+							<div class="footer_about_text" style="position:relative;top:50px;">
+								<p>ICCC 2020 is a non profit conference and it will provide an opportunity to the practicing engineers, academicians and researchers to meet in a forum to discuss various issues and its future direction in the field of Electrical, Computer etc..</p></div>
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+				<div class="col-lg-3 footer_col">
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="publications.html">Publications</a></li>
+                                <li><a href="callpaper.html">Call For Papers</a></li>
+                                <li><a href="onlinesub.html">Submission</a></li>
+                                <li><a href="importantdates.html">Important Dates</a></li>
+                                <li><a href="author-guidelines.html">Author Guidelines</a></li>
+                                <li><a href="call-special.html">Call For Special Sessions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Column -->
+                <div class="col-lg-3 footer_col">
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="aboutconf.html">About Conference</a></li>
+                                <li><a href="aboutcoll.html">About College</a></li>
+                                <li><a href="oc.html">Organizing Committee</a></li>
+                                <li><a href="ac.html">Advisory Committee</a></li>
+                                <li><a href="tc.html">Technical Committee</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Footer Column -->
+                <div class="col-lg-2 footer_col">
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="register.html">Registration</a></li>
+                                <li><a href="speaker.html">Speakers</a></li>
+                                <li><a href="travel.html">Travel</a></li>                       
+                                <li><a href="contact.html">Contact</a></li>
+                                <li style="color:white"><a href="webdevlopers.html">Web Developers</a></li>
+                            </ul>
+						</div>
+					</div>
+                <!--/div>-->
+			</div>
+		</div>
+	</footer>
+<div class="text-center copyright" style="width:100%;color:#fff;border:1px;background:linear-gradient(to right, #4867c0, #329fec);padding:10px;margin-top:-10px;">
+    Copyright &copy;<script>document.write(new Date() .getFullYear());</script> All rights reserved | This website is made by <a href="http://www.aitamsac.in" target="_blank" style="color:#fff">AITAM SAC</a>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+	function showac() {
+		ac.style.display = "block";
+	}
+	function hideac() {
+		ac.style.display = "none";
+	}
+</script>
+</body>
+</html>
